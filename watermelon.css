@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bungee+Shade&family=IBM+Plex+Serif:wght@300&family=Kablammo&family=Lobster+Two&family=Noto+Sans:wght@100;300&family=Open+Sans:ital,wght@0,300;1,300&family=Orbitron:wght@600&family=Playfair:ital,wght@1,400;1,500;1,900&family=Rubik+Bubbles&display=swap');
+
+body {
+    /* background: rgb(130,255,146);
+background: linear-gradient(0deg, rgba(130,255,146,1) 0%, rgba(245,24,24,1) 100%); */
+    background: rgb(248, 0, 0);
+    background: linear-gradient(3deg, rgba(248, 0, 0, 1) 0%, rgba(255, 168, 247, 1) 95%);
+    height: 96vh;
+            /* margin: 0; */
+    /* padding: 0; */
+    overflow: hidden;
+
+}
+
+.img {
+    /* display: block; */
+    /* margin: auto; */
+    position: absolute;
+    /* padding: 15px; */
+    margin-top: -510px;
+    margin-left: 980px;
+}
+#img_2{
+    display: none;
+}
+
+.description {
+    color: rgb(248, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.7em;
+    max-width: 40%;
+    left: 250px;
+    background-color: peachpuff;
+    border: 2px solid black;
+    border-radius: 55px;
+    top: -40%;
+    position: relative;
+}
+
+.juice-name {
+    color: darkmagenta;
+    box-shadow: 5px 5px 10px rgb(236, 25, 95);
+}
+
+#juicevideo {
+    width: 50px;
+}
+@media only screen and (max-width: 600px)  {
+    #img_2 {
+        position: absolute;
+        top: 230px;
+        left: 350px;
+        
+    }.img {
+        display: none;
+    }
+}

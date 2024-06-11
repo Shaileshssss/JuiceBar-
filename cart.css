@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+body {
+    background-image: linear-gradient(226.4deg, rgb(255, 26, 1) 28.9%, rgb(254, 155, 1) 33%,
+            rgb(255, 241, 0) 48.6%, rgb(34, 218, 1) 65.3%, rgb(0, 141, 254) 80.6%, rgb(113, 63, 254) 100.1%);
+    background-repeat: no-repeat;
+    height: 102vh;
+    width: auto;
+}
+
+
+
+h3 {
+    position: relative;
+    left: 130px;
+    font-weight: 600;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+#cart-summary {
+    position: relative;
+    /* background-color: gainsboro; */
+    position: absolute;
+    width: 15%;
+    top: 95px;
+    left: 40%;
+    line-height: 15px;
+    padding: 15px;
+
+
+}
+
+.item-name {
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.item-controls {
+    background-color: red;
+    padding-left: 15px;
+}
+
+table {
+    width: 180%;
+    border-collapse: collapse;
+    background-color: rgb(215, 215, 215);
+    font-size: 12px;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(99, 98, 98);
+    font-family: "Graduate", serif;
+    /* padding: 5px; */
+}
+
+th {
+    background-color: rgb(172, 170, 170);
+    text-transform: uppercase;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+#total-amount {
+    /* text-transform: none; */
+    text-decoration: none;
+    color: black !important;
+    /* font-weight: bolder; */
+    /* font-size: larger; */
+    font-family: "Graduate", serif;
+    font-size: 15px;
+}
+
+#clearCart {
+    top: 105px;
+    right: 5%;
+    color: white;
+    background-color: mediumslateblue;
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 15px;
+
+
+}
+
+#clearCart:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+@media only screen and (max-width : 600px) {
+    #total-amount {
+        /* background-color: red; */
+        position: relative;
+        left: 0px;
+    }
+    table,th,td  {
+font-size: 10px;
+position: relative;
+        left: 0px;
+        margin-left: -105px;
+}
+#clearCart {
+    position: relative;
+  right: 345px;
+  left: 50px;
+  top: 55px;
+}
+h3 {
+    position: relative;
+    left: -20px;
+    width: 150px;
+
+}
+
+}

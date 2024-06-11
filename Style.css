@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=IBM+Plex+Serif:wght@300&family=Kablammo&family=Lobster+Two&family=Noto+Sans:wght@100;300&family=Open+Sans:ital,wght@0,300;1,300&family=Orbitron:wght@600&family=Playfair:ital,wght@1,400;1,500;1,900&family=Rubik+Bubbles&display=swap');
+
+body {
+    height: auto;
+    width: auto;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.homeimg img {
+    position: relative;
+    width: 540px;
+    margin-top: 10px;
+    left: 520px;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: transparent;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 255px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lobster Two', sans-serif;
+
+}
+
+.navbar li {
+    float: left;
+    font-weight: 800;
+    font-family: playfair;
+}
+
+.navbar a:hover {
+    color: gray;
+    background-color: bisque;
+    border-radius: 36px;
+}
+
+h2 {
+    font-family: Lobster Two;
+    color: black;
+    /* margin-left: 20px; */
+}
+
+
+.lists {
+    position: relative;
+    color: white;
+    border: 4px dashed gray;
+    border-radius: 50px;
+    padding: 0;
+    /* width: 950px; */
+    margin: -0%;
+    margin-left: 87%;
+    right: 87%;
+    background-color: transparent;
+    /* opacity: .5; */
+    /* border-right-width: 150px; */
+}
+
+
+.lists li {
+    padding: 5px;
+    /* background-color: white; */
+    position: static;
+    margin: 10px;
+    margin-right: 87%;
+    margin-left: -1%;
+    /* width: 555px; */
+    filter: drop-shadow(3px 5px 5px blue);
+    background-color: transparent;
+    border-radius: 15px;
+    /* opacity: .5; */
+
+}
+
+.lists a {
+    text-decoration: none;
+    font-family: rubik bubbles;
+    font-size: 16px;
+    color: black;
+    background-color: wheat;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: white;
+    /* opacity: .5; */
+}
+
+.lists a:hover {
+    background-color: hotpink;
+    color: black;
+}
+
+
+.price {
+    position: relative;
+    /* display: inline-block; */
+    margin-left: 300px;
+    background-color: darkcyan;
+    color: wheat;
+    margin-top: -20%;
+    border: 4px solid burlywood;
+    border-radius: 45px;
+    /* padding: 3px; */
+    cursor: not-allowed;
+    width: 150px;
+    /* top: 45px; */
+    /* height: 55px; */
+    text-align: center;
+
+}
+
+.price,
+button {
+    position: relative;
+    top: 45px;
+}
+
+
+#quantity {
+    font-size: 15px;
+}
+
+.button {
+
+    margin-left: 480px;
+    margin-top: -65px;
+    top: 45px;
+
+}
+
+.cart {
+    float: left;
+    width: 150px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 45px;
+    border: 4px solid gold;
+    padding: 3px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: black;
+    background-color: aliceblue;
+    /* margin-right: 50px; */
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.cart:hover {
+    transform: scale(1.0);
+    background-color: darkmagenta;
+    color: white;
+}
+
+.homesection {
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    font-size: 20px;
+    /* margin-left: 25px; */
+    /* writing-mode: vertical-rl;
+    text-orientation:upright; */
+    transform: rotate(-25deg);
+    transform-origin: 0 0;
+    border: 5px dotted;
+    border-radius: 25px;
+    color: mediumspringgreen;
+    border-color: deeppink;
+    /* background-color: rgb(255, 255, 154); */
+    padding: 12px;
+    font-weight: 900;
+    line-height: 5px;
+
+}
+
+.homesection:hover {
+    transition: 3s ease-in-out;
+    background-color: black;
+    animation: borderColorChange 3s infinite;
+}
+
+@keyframes borderColorChange {
+    0% {
+        border-color: deeppink;
+    }
+
+    10% {
+        border-color: blue;
+    }
+
+    20% {
+        border-color: green;
+    }
+
+    30% {
+        border-color: yellow;
+    }
+
+    40% {
+        border-color: orange;
+    }
+
+    50% {
+        border-color: purple;
+    }
+
+    60% {
+        border-color: red;
+    }
+
+    70% {
+        border-color: cyan;
+    }
+
+    80% {
+        border-color: magenta;
+    }
+
+    90% {
+        border-color: lime;
+    }
+
+    100% {
+        border-color: deeppink;
+    }
+}
+
+.glass-animation {
+    position: absolute;
+    top: 230px;
+    right: 40px;
+}
+
+#heading-juicebar {
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    padding: 2px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+    color: black;
+    /* width: 350px; */
+
+}
+
+#cart {
+    color: black;
+    box-shadow: 0 2px;
+    position: relative;
+    margin-left: 55px;
+    font-size: 25px;
+
+}
+
+#nutrition {
+    background-color: white;
+    /* height: 5%; */
+    width: 42px;
+    position: absolute;
+    top: 61%;
+    /* right:-500px; */
+    margin-left: 700px;
+    border-radius: 35px;
+    border: 3px solid green;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#nutrition:hover {
+    background-color: aquamarine;
+}
+
+.juice-name {
+    font-weight: bolder;
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: "Bungee Shade";
+    box-shadow: 5px 5px 10px gold;
+    top: 18%;
+    left: 21%;
+    border-radius: 20px;
+    text-align: center;
+    width: 32%;
+}
+
+.order-details {
+    position: absolute;
+    /* float:right; */
+    /* display: inline-block; */
+    /* margin-right: -20px; */
+    margin-top: -36%;
+    margin-left: 85%;
+    font-family: "Times New Roman", Georgia;
+    font-style: italic;
+    /* line-height: 2; */
+    font-size: 16px;
+    color: #a9d7f0;
+    border: 4px solid gray;
+    height: 81%;
+    width: 13%;
+    border-radius: 15px;
+    background-color: transparent;
+
+}
+
+.Nutrition-Img {
+    width: 150px;
+    height: 59px;
+    /* background-color: transparent; */
+    border-radius: 45px;
+    border: 4px solid gold;
+    padding: 3px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: black;
+    background-color: aliceblue;
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.Nutrition-Img:hover {
+    /* background-color: #a9d7f0; */
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    transition: 2s;
+}
+
+#imageContainer {
+    display: none;
+    position: relative;
+    top: -55%;
+    margin-left: 60%;
+    height: 0;
+
+}
+
+#cancelIcon {
+    cursor: pointer;
+    background-color: black;
+    color: green;
+    font-family: cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    width: 105px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 4px;
+    border: 2px solid wheat;
+}
+
+/* ********************** About Section *************** */
+/*About Section*/
+
+.lists {
+    text-align: center;
+}
+
+#cart {
+    margin-top: 20px;
+}
+
+#cart img {
+    width: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#cartDetails {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.button .cart.disabled {
+    background-color: green;
+    cursor: not-allowed;
+}
+
+.container {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.videomaking {
+    background-color: black;
+    position: absolute;
+    top: 205px;
+    right: 20px;
+    color: honeydew;
+    padding: 5px;
+    border: 5px double azure;
+    border-radius: 5px;
+}
+
+.videomaking:hover {
+    background-color: black !important;
+    color: wheat;
+    cursor: pointer;
+}
+
+#juicevideo {
+    margin-top: 20px;
+}
+
+#videoContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#cancelButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.listHeading {
+
+    height: 530px;
+    width: 220px;
+    padding: 8px;
+    /* background-color: red; */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    /* position: absolute; */
+}
+
+.listofjuice {
+    height: 465px;
+    overflow: auto;
+    background-color: transparent;
+    color: #000;
+    padding: 8px;
+    /* padding-right: 150px; */
+    line-height: 45px;
+    position: fixed;
+    border: 4px solid black;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    /* top: 105px; */
+
+}
+
+.listofjuice a {
+    text-decoration: none;
+    font-family: rubik bubbles;
+    color: black;
+}
+
+#gg {
+    top: 28px;
+    position: relative;
+}
+
+.listofjuice a:hover {
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+/* unvisited link */
+.listofjuice a:link {
+    color: black;
+}
+
+.listofjuice a:active {
+    color: blue;
+}
+
+.button .cart.added {
+    background-color: green;
+    /* Green background for "Added!" state */
+}
+
+.cart_items,
+.cart_basket {
+    position: fixed;
+    top: 69px;
+    right: 45px;
+    font-size: larger;
+    /* color: white; */
+}
+
+
+.description {
+    font-family: "Single Day", cursive;
+    font-weight: 100;
+    font-style: normal;
+    max-width: 40%;
+}
+
+.anim_2 {
+    /* background-color: green; */
+    position: absolute;
+    top: 14%;
+    right: 1px;
+
+}
+
+.cart_basket {
+    right: 65px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar a {
+     padding: 10px 3px;
+     position: relative;
+     padding: 5px;
+     margin: 10px;
+     left: 65px;
+    }
+    #heading-juicebar{
+        display: none;
+    }
+    .glass-animation {
+        display: none;
+    }
+    .anim_2 {
+        position: relative;
+    }
+    .homesection {
+        display: none;
+    }.homeimg img {
+        position: relative;
+        left: 0px;
+    } 
+    .listofjuice {
+        background-color:aquamarine;
+        position: relative;
+        top: 95%;
+        height: 50px;
+        width: 350px;
+        margin-left: 55px;    
+
+    }
+    .listofjuice a{
+    
+        position: relative;
+        display: inline;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .juice-name {
+    position: relative;
+    top: -105px;
+    width:fit-content;
+    left: 155px;
+    margin: 0px;
+
+    }
+    .juice-name p {
+        /* width: 250px; */
+        display: inline-flex;
+        flex-wrap: nowrap;
+        font-size: 19px;
+        margin: 0;
+        justify-content: left;
+    }
+    .description {
+        margin-top: 200px;
+        margin-left: -250px;
+        padding: 205px;
+        line-height: 15px;
+        width: 300% !important;
+        border: 15px solid red;
+        left: -230px;
+
+
+    }
+    .description p {
+        width: 290px;
+        max-width:fit-content;
+        flex-wrap: nowrap;
+        font-size: 13px;
+
+    }
+
+    .img img {
+        position: relative;
+        width: 300px;
+        left: -200%;
+        height: 200px;
+        top: 480px;
+    }
+    .price {
+        position: relative;
+        font-size: 12px;
+        padding: 0;
+        top: -155px;
+        margin-left: 15px;
+    }
+    .cart{
+        position: relative;
+        top: -145px;
+        margin-left: -295px;
+        font-size: 12px;
+
+    }
+    .Nutrition-Img {
+        position: relative;
+        top: -145px;
+        margin-left: 350px;
+        font-size: 12px;
+    }
+    .listofjuice {
+        border-color: transparent;
+    }
+
+    
+    .listofjuice ol {
+        display: flex;
+        justify-content:space-evenly;
+        list-style-type: none;
+        margin-top: 0px;
+        margin-bottom: 0%;
+    }
+    
+    .listofjuice ol li {
+        line-height: initial;
+        padding: 15px;
+        
+    }
+    
+    .listofjuice a {
+        text-decoration: none;
+        font-family: rubik bubbles;
+        color: black;
+        
+    }
+    .listHeading{
+        /* background-color: white */
+        height: auto;
+        position:relative;
+        top: 480px;
+    }
+
+    .cart_basket{
+        /* background-color: red; */
+        position: fixed;
+        /* left: 465px; */
+        /* margin-left: 535px; */
+        top: 11%;
+        right: 65px;
+    
+    }.cart_items {
+        position: relative;
+        /* background-color: #fff; */
+        left: 490px;
+        top: -135px
+
+    
+    }
+    .videomaking {
+        position: fixed;
+        /* top: -485px; */
+        /* margin: auto; */
+        /* margin-left: 10px; */
+        background-color: transparent;
+        border: none;
+        color: black;
+        width: 10px;
+        left: 1px;
+        padding-right: 15px;
+        margin-right: 150px;
+        margin-bottom: 150px;
+        /* padding-top: 5px; */
+        /* padding-bottom: 100px; */
+    }
+    #displayedImage {
+        width: 260px;
+        position: relative;
+        left: -105px;
+        top: -190px;
+
+    }
+    #cancelIcon {
+        position: relative;
+        left: -150px;
+        top: -190px;
+    }
+}

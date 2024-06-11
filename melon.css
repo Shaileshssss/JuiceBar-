@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bungee+Shade&family=IBM+Plex+Serif:wght@300&family=Kablammo&family=Lobster+Two&family=Noto+Sans:wght@100;300&family=Open+Sans:ital,wght@0,300;1,300&family=Orbitron:wght@600&family=Playfair:ital,wght@1,400;1,500;1,900&family=Rubik+Bubbles&display=swap');
+
+body {
+    background: rgb(249, 254, 114);
+    background: linear-gradient(180deg, rgba(170, 251, 149, 1) 50%, rgba(238, 251, 7, 1) 100%);
+    height: 96vh;
+    width: auto;
+            /* margin: 0; */
+    /* padding: 0; */
+    overflow: hidden;
+}
+
+.img {
+    /* display: block; */
+    /* margin: auto; */
+    position: absolute;
+    /* padding: 15px; */
+    margin-top: -520px;
+    margin-left: 840px;
+}
+
+.description {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.7em;
+    max-width: 40%;
+    left: 250px;
+    background-color: lightgreen;
+    border: 2px solid green;
+    border-radius: 55px;
+    top: -40%;
+    position: relative;
+}
+
+.juice-name {
+    color: green;
+    box-shadow: 5px 5px 10px rgb(0, 193, 0);
+}
+
+#juicevideo {
+    width: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .img {
+        top: 285px;
+
+    }
+}

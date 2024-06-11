@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice Bar Cart</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <h2>Juice Bar <i class="fa-solid fa-store fa-beat"></i></h2>
+    <marquee id="heading-juicebar">Connected!</marquee>
+
+    <!-- Navbar  -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="/About.html">About</a></li>
+            <li><a href="/Apple.html">Product</a></li>
+            <li><a href="/Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="cart-summary">
+        <h3>Cart Summary</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items-list"></tbody>
+        </table>
+        <h3 id="total-amount" class="total-amount">Total Amount: ₹0</h3>
+    </div>
+
+
+    <button id="clearCart">Pay Now</button>
+
+
+</body>
+<script src="Script.js"></script>
+
+</html>

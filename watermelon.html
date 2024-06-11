@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Juice Bar WaterMelon</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="watermelon.css">
+</head>
+
+<body>
+    <h2>Juice Bar <i class="fa-solid fa-store fa-beat"></i></h2>
+    <marquee id="heading-juicebar"> Connected!</marquee>
+
+    <!-- Navbar  -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="/About.html">About</a></li>
+            <li><a href="/Apple.html">Product</a></li>
+            <li><a href="/Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="gg">
+        <div class="listHeading">
+            <p><strong>List of Juice 😃:</strong></p>
+            <div class="listofjuice">
+                <ol>
+                    <li><a href="/Apple.html">Apple</a></li>
+                    <li><a href="/Avocado.html">Avocado</a></li>
+                    <li><a href="/Mango.html">Mango</a></li>
+                    <li><a href="/Orange.html">Orange</a></li>
+                    <li><a href="/Grapes.html">Grapes</a></li>
+                    <li><a href="/chocloate.html">Choclate</a></li>
+                    <li><a href="/Strawbeery.html">strawberry</a></li>
+                    <li><a href="/pinapple.html">pinapple</a></li>
+                    <li><a href="/watermelon.html">WaterMelon</a></li>
+                    <li><a href="/Banana.html">Banana</a></li>
+                    <li><a href="/melon.html">Melon</a></li>
+                    <li><a href="/bluberry.html">BlueBerry</a></li>
+                    <li><a href="/Orea.html">Oreo</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart_items">
+        <span id="cart-count">0</span>
+    </div>
+
+
+    <div class="img">
+        <img src="./Images/water.png" alt="WaterMelon" width="351">
+    </div>
+            <img src="./Images/1c2ee1198097735.663b7ea5bd064.jpg" alt="water" width="200" id="img_2">
+
+    <div class="juice-name">
+        <p>Fresh WaterMelon 🍉</p>
+    </div>
+    <div class="description">
+        <p>Watermelon juice is a refreshing, hydrating beverage perfect for hot summer days.
+            Packed with vitamins A and C, it offers a sweet, nutrient-rich alternative to sugary drinks.
+            Its high water content helps keep you cool and revitalized.</p>
+    </div>
+
+    <div class="price">
+        <h3>Price : ₹80 <span id="quantity">/150ml</span></h3>
+    </div>
+    <div class="button">
+        <button class="cart">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+
+    <button class="Nutrition-Img" onclick="showImage()">Nutrition Details</button>
+
+    <div id="imageContainer">
+        <img id="displayedImage" src="Screenshot 2024-03-10 090457.png" alt="Displayed Image" width="350">
+        <div id="cancelIcon" onclick="hideImage()">Go Back</div>
+    </div>
+
+    <div class="cart_basket">
+        <a href="cart.html" target="_self"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+
+    <div class="videomaking">
+        <div class="btn">
+            <i class="fa-solid fa-video"></i>
+        </div>
+        <video id="video" src="Images/avocado-in-the-kitchen-40527-hd-ready.mp4" controls
+            style="width: 550px;  display: none; background-color: black;"></video>
+        <!-- <button id="closeButton" style="display: none;">Close</button> -->
+    </div>
+
+
+
+    <script src="Script.js"></script>
+    <script src="https://kit.fontawesome.com/ebdf18f95b.js" crossorigin="anonymous"></script>
+    <script>
+        checkCartState('watermelon');
+    </script>
+
+</body>
+
+</html>
