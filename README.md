@@ -15,6 +15,12 @@ Apple.html
 
 ![Screenshot 2024-06-16 093651](https://github.com/Shaileshssss/JuiceBar-/assets/108980657/d790a010-9540-4e42-8447-cdce7feca184)
 
+Melon.html
+![Screenshot 2024-06-16 122809](https://github.com/Shaileshssss/Responsive_Portfolio/assets/108980657/5d1dec85-e441-4876-b96f-84928f59d82a)
+
+![Screenshot 2024-06-16 122904](https://github.com/Shaileshssss/Responsive_Portfolio/assets/108980657/c8e8bb6d-0340-45f6-bd71-c4d1f6b19667)
+
+![Screenshot 2024-06-16 123000](https://github.com/Shaileshssss/Responsive_Portfolio/assets/108980657/96f83ace-4d16-4abc-890f-e4d4326ad787)
 
 
 ![Screenshot 2024-06-16 093811](https://github.com/Shaileshssss/JuiceBar-/assets/108980657/66c0c8ee-04bd-478c-935d-ae1127e768a4)
