@@ -15,9 +15,7 @@ Apple.html
 
 ![Screenshot 2024-06-16 093651](https://github.com/Shaileshssss/JuiceBar-/assets/108980657/d790a010-9540-4e42-8447-cdce7feca184)
 
-![Screenshot 2024-06-16 093719](https://github.com/Shaileshssss/JuiceBar-/assets/108980657/5f13b6bf-b50b-4daf-a45d-5b4be2ca4ad8)
 
-![Screenshot 2024-06-16 093750](https://github.com/Shaileshssss/JuiceBar-/assets/108980657/17a9a4b0-866c-4c1d-9907-a7df91771649)
 
 ![Screenshot 2024-06-16 093811](https://github.com/Shaileshssss/JuiceBar-/assets/108980657/66c0c8ee-04bd-478c-935d-ae1127e768a4)
 
