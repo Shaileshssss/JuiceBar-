@@ -27,4 +27,5 @@ Cart or Payment Page
 
 
 MySQL Database
-![Screenshot (2375)](https://github.com/Shaileshssss/JuiceBar-/assets/108980657/02985aa1-955b-48c9-acd8-ffe21140879f)
+![Screenshot 2024-06-16 122609](https://github.com/Shaileshssss/Responsive_Portfolio/assets/108980657/8d9f3704-6c4b-4d6f-9111-7f6d87ee1c77)
+
